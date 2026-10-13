@@ -1,0 +1,14 @@
+# 撮影データと出力(大きく、前景が写っているものがある)
+raw_data*/
+dark_frame/
+output/
+
+# 動画の素材(BGM・効果音は再配布不可、操作動画には通知が映っている)
+動画/
+
+# ビルド生成物
+starstack/target/
+video/node_modules/
+video/out/
+video/public/
+video/assets/

@@ -1,0 +1,20 @@
+{
+  "name": "starstack-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "timeline": "node tools/build_timeline.mjs",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main out/main.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.5.0"
+  }
+}

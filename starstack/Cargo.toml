@@ -1,0 +1,20 @@
+[package]
+name = "starstack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1"
+nalgebra = "0.33"
+serde_json = "1"
+ab_glyph = "0.2"
+wgpu = "22"
+pollster = "0.3"
+bytemuck = "1"
+sysinfo = { version = "0.30", default-features = false }
+image = { version = "0.25", default-features = false, features = ["jpeg", "tiff"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
