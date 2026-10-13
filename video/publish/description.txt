@@ -18,7 +18,7 @@
 ■ 使ったもの
 スマホ: Pixel 11 Pro
 撮影アプリ: Open Camera https://opencamera.org.uk/
-重ねるプログラム(自作、MIT License): (GitHub の URL をここに)
+重ねるプログラム(自作、MIT License): https://github.com/ikuto32/starstack
 
 ■ 撮影の設定
 保存形式: DNG (RAW) only / シャッター速度: 16秒 / ISO: 100(機種に合わせて調整)
