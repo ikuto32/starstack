@@ -5,6 +5,7 @@
 - 入力: 同じ構図で撮り続けた DNG の連写(12枚以上)。Pixel 11 Pro と Open Camera で撮ったもので確認しています。
 - 出力: 星に合わせて重ねた画像、星の軌跡、星座線と名前を入れた画像、2倍解像度の画像(JPEG と 16bit TIFF)。
 - 処理の中身は [PROCESSING.md](PROCESSING.md) にまとめています。
+- 解説動画: [星空撮影入門 スマホを外に放置するだけで星空を撮る](https://youtu.be/gi0ALoWkri0)
 
 ## 作例
 
@@ -62,7 +63,7 @@ starstack raw_data output dark_frame --catalog=catalog --2x
 
 ## 解説動画
 
-`video/` は、このプログラムの解説動画(台本、音声合成、アニメーション)を [Remotion](https://www.remotion.dev/) で作るためのプロジェクトです。音声は VOICEVOX(四国めたん、春日部つむぎ)で合成します。BGM・効果音・撮影データはリポジトリに含めていません。Remotion には独自のライセンスがあり、利用条件は Remotion の案内を確認してください。
+`video/` は、このプログラムの[解説動画](https://youtu.be/gi0ALoWkri0)(台本、音声合成、アニメーション)を [Remotion](https://www.remotion.dev/) で作るためのプロジェクトです。音声は VOICEVOX(四国めたん、春日部つむぎ)で合成します。BGM・効果音・撮影データはリポジトリに含めていません。Remotion には独自のライセンスがあり、利用条件は Remotion の案内を確認してください。
 
 ```
 cd video
